@@ -4,6 +4,6 @@ import { test } from '../controllers/user.controller.js';
 
 const router=express.Router();
 
-route.get('/test',test);
+router.get('/test',test);
 
 export default router;
