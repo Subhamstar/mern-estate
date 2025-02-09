@@ -1,5 +1,5 @@
 import User from '../models/user.model.js';
-import bcryptjs from bcryptjs;
+import bcryptjs from 'bcryptjs';  //this is used to hash the password
 import { errorHandler } from '../utils/error.js';
 import jwt from 'jsonwebtoken';
 //import { errorHandler } from '../utils/error.js';
